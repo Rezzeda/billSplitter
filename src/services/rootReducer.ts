@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import toDosReducer, { todosSlice } from "./todosSlice";
+import billReducer, {billSlice} from "./billSlice";
 
 export const rootReducer = combineReducers({
-    [todosSlice.name] : toDosReducer,
+    [billSlice.name] : billReducer,
 })
