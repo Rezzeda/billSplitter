@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/to-do-rtk-test" element={<Home />} />
+          <Route path="/bill" element={<Home />} />
           <Route path="/guests" element={<Guests />} />
           <Route path="/dishes" element={<Dishes />} />
           <Route path="/results" element={<Results />} />

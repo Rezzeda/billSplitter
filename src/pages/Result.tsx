@@ -26,7 +26,7 @@ const Results: React.FC = () => {
     };
   
     const handleCreateNewBill = () => {
-      navigate('/to-do-rtk-test'); // Переход на главную страницу
+      navigate('/bill'); // Переход на главную страницу
     };
   
     return (
